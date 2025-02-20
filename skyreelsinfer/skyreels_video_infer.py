@@ -82,7 +82,7 @@ class SkyReelsVideoSingleGpuInfer:
         self.task_type = task_type
         self.gpu_rank = local_rank
         dist.init_process_group(
-            backend="nccl",
+            backend="gloo",
             init_method="tcp://127.0.0.1:23456",
             timeout=timedelta(seconds=600),
             world_size=world_size,
