@@ -1,20 +1,25 @@
-*****************************
-conda install -c conda-forge libuv
-pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124
-pip install -U xformers --index-url https://download.pytorch.org/whl/cu124
-pip install https://github.com/woct0rdho/triton-windows/releases/download/v3.1.0-windows.post9/triton-3.1.0-cp310-cp310-win_amd64.whl
-pip install optimum[quanto]
-pip install transformers==4.46.3
-pip install accelerate==1.1.1
-pip install bitsandbytes==0.45.0
-pip install sageattention==1.0.6
-pip install git+https://github.com/huggingface/diffusers.git@464374fb87610c53b2cf81e08d3df628fada3ce4
-pip install git+https://github.com/Howe2018/ParaAttention.git
-pip install torchao==0.7.0
-pip install imageio-ffmpeg==0.5.1
-pip install conda install -c conda-forge nvtx
-pip install opencv-python==4.10.0.84
-pip install imageio==2.36.1
+<p><img src=yout.jpg></img></p>
+
+<ol>
+  <li>conda create --name skyreels python=3.10 -y
+  <li>conda activate skyreels 
+  <li>conda install -c conda-forge libuv</li>
+  <li>pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124</li>
+  <li>pip install -U xformers --index-url https://download.pytorch.org/whl/cu124</li>
+  <li>pip install https://github.com/woct0rdho/triton-windows/releases/download/v3.1.0-windows.post9/triton-3.1.0-cp310-cp310-win_amd64.whl</li>
+  <li>pip install optimum[quanto]</li>
+  <li>pip install transformers==4.46.3</li>
+  <li>pip install accelerate==1.1.1</li>
+  <li>pip install bitsandbytes==0.45.0</li>
+  <li>pip install sageattention==1.0.6</li>
+  <li>pip install git+https://github.com/huggingface/diffusers.git@464374fb87610c53b2cf81e08d3df628fada3ce4</li>
+  <li>pip install git+https://github.com/Howe2018/ParaAttention.git</li>
+  <li>pip install torchao==0.7.0</li>
+  <li>pip install imageio-ffmpeg==0.5.1</li>
+  <li>pip install conda install -c conda-forge nvtx</li>
+  <li>pip install opencv-python==4.10.0.84</li>
+  <li>pip install imageio==2.36.1</li>
+</ol>
 
 Before Running:
 set USE_LIBUV=0
