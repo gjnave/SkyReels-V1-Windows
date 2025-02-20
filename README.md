@@ -24,6 +24,9 @@
 Before Running:
 set USE_LIBUV=0
 
+<b>Exmple prompt (removed --modelid)</b>:
+python video_generate.py --task_type t2v --guidance_scale 6.0 --height 544 --width 960 --num_frames 97 --prompt "FPS-24, A cat wearing sunglasses and working as a lifeguard at a pool" --embedded_guidance_scale 1.0
+
 **********************
 
 <p align="center">
